@@ -55,7 +55,7 @@
       </button>
     </view>
     <button bindtap="submit" class="parsing" hoverClass="parsing-btn-hover">一键去除水印</button>
-    <view style="height: 300px;"></view>
-    <view class="center">@ yaqi.wang.com</view>
+    <view style="height: 300px;">广告位</view>
+    <view class="center">@</view>
   </view>
 </view>

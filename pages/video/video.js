@@ -26,10 +26,10 @@ Page({
         wx.setClipboardData({
             data: this.data.dataUrl,
             success: function(a) {
-              wx.showToast({
-                title: '复制成功',
-                duration: 1200
-              });
+                wx.showToast({
+                    title: '复制成功',
+                    duration: 1200
+                });
             }
           });
     },
@@ -46,7 +46,7 @@ Page({
                     success: function (o) {
                         t.showToast('保存成功', 'success'), setTimeout(function () {
                             wx.setClipboardData({
-                              data: '',
+                                data: '',
                             })
                             t.goBack()
                         }, 1e3)
